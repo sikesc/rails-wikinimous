@@ -1,10 +1,10 @@
-
 <div class="container p-3">
   <% @articles.each do |article| %>
   <div class="card-product mb-2">
     <div class="card-product-infos">
       <h2><%= article.title %></h2>
       <p><%= article.content %></p>
+      <%= link_to "", article_path(article["id"]), class: "card-article-link" %>
     </div>
   </div>
   <% end %>

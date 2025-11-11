@@ -48,6 +48,7 @@
 
 .card-product .card-product-infos {
   padding: 16px;
+  position: relative;
 }
 
 .navbar-lewagon {
@@ -61,4 +62,13 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.card-article-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
 }
